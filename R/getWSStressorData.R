@@ -8,7 +8,8 @@
 getWSStressorData <- function(state){
   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")
 
-  ws_stressors <- read.csv("data-raw/WSStressorInfo.csv")
+  fp_ws_stressors <- system.file("data-raw", "WSStressorInfo.csv", package = "CASToolHelperPckg")
+  ws_stressors <- read.csv(fp_ws_stressors)
 
   ws_stressors_vec <- ws_stressors |> dplyr::pull(SCmetrics)
 

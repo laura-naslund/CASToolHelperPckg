@@ -4,6 +4,7 @@
 #' @export
 #'
 getWSStressorInfo <- function(){
-  ws_stressors <- read.csv("data-raw/WSStressorInfo.csv")
+  fp_ws_stressors <- system.file("data-raw", "WSStressorInfo.csv", package = "CASToolHelperPckg")
+  ws_stressors <- read.csv(fp_ws_stressors)
   return(ws_stressors)
 }
