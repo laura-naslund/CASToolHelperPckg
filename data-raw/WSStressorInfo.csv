@@ -1,0 +1,677 @@
+StreamCatVar,SCmetrics,Year,Label
+coalminedens,coalminedens,NA,Coal mine density
+n_ags_,n_ags_1987,1987,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1988,1988,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1989,1989,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1990,1990,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1991,1991,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1992,1992,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1993,1993,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1994,1994,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1995,1995,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1996,1996,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1997,1997,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1998,1998,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_1999,1999,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2000,2000,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2001,2001,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2002,2002,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2003,2003,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2004,2004,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2005,2005,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2006,2006,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2007,2007,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2008,2008,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2009,2009,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2010,2010,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2011,2011,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2012,2012,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2013,2013,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2014,2014,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2015,2015,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2016,2016,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_ags_,n_ags_2017,2017,N agricultural surplus (n_ff + n_lwr + n_cf - n_cr)
+n_cr_,n_cr_1987,1987,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1988,1988,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1989,1989,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1990,1990,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1991,1991,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1992,1992,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1993,1993,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1994,1994,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1995,1995,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1996,1996,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1997,1997,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1998,1998,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_1999,1999,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2000,2000,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2001,2001,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2002,2002,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2003,2003,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2004,2004,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2005,2005,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2006,2006,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2007,2007,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2008,2008,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2009,2009,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2010,2010,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2011,2011,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2012,2012,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2013,2013,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2014,2014,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2015,2015,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2016,2016,N removed from agricultural fields via crop output harvest
+n_cr_,n_cr_2017,2017,N removed from agricultural fields via crop output harvest
+n_ff_,n_ff_1987,1987,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1988,1988,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1989,1989,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1990,1990,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1991,1991,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1992,1992,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1993,1993,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1994,1994,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1995,1995,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1996,1996,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1997,1997,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1998,1998,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_1999,1999,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2000,2000,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2001,2001,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2002,2002,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2003,2003,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2004,2004,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2005,2005,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2006,2006,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2007,2007,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2008,2008,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2009,2009,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2010,2010,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2011,2011,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2012,2012,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2013,2013,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2014,2014,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2015,2015,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2016,2016,N applied to agricultural fields to fertilize crops
+n_ff_,n_ff_2017,2017,N applied to agricultural fields to fertilize crops
+n_hw_,n_hw_1987,1987,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1988,1988,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1989,1989,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1990,1990,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1991,1991,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1992,1992,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1993,1993,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1994,1994,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1995,1995,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1996,1996,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1997,1997,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1998,1998,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_1999,1999,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2000,2000,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2001,2001,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2002,2002,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2003,2003,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2004,2004,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2005,2005,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2006,2006,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2007,2007,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2008,2008,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2009,2009,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2010,2010,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2011,2011,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2012,2012,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2013,2013,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2014,2014,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2015,2015,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2016,2016,N excreted from humans via waste or otherwise disposed of
+n_hw_,n_hw_2017,2017,N excreted from humans via waste or otherwise disposed of
+n_lw_,n_lw_1987,1987,N excreted from livestock animals through manure
+n_lw_,n_lw_1988,1988,N excreted from livestock animals through manure
+n_lw_,n_lw_1989,1989,N excreted from livestock animals through manure
+n_lw_,n_lw_1990,1990,N excreted from livestock animals through manure
+n_lw_,n_lw_1991,1991,N excreted from livestock animals through manure
+n_lw_,n_lw_1992,1992,N excreted from livestock animals through manure
+n_lw_,n_lw_1993,1993,N excreted from livestock animals through manure
+n_lw_,n_lw_1994,1994,N excreted from livestock animals through manure
+n_lw_,n_lw_1995,1995,N excreted from livestock animals through manure
+n_lw_,n_lw_1996,1996,N excreted from livestock animals through manure
+n_lw_,n_lw_1997,1997,N excreted from livestock animals through manure
+n_lw_,n_lw_1998,1998,N excreted from livestock animals through manure
+n_lw_,n_lw_1999,1999,N excreted from livestock animals through manure
+n_lw_,n_lw_2000,2000,N excreted from livestock animals through manure
+n_lw_,n_lw_2001,2001,N excreted from livestock animals through manure
+n_lw_,n_lw_2002,2002,N excreted from livestock animals through manure
+n_lw_,n_lw_2003,2003,N excreted from livestock animals through manure
+n_lw_,n_lw_2004,2004,N excreted from livestock animals through manure
+n_lw_,n_lw_2005,2005,N excreted from livestock animals through manure
+n_lw_,n_lw_2006,2006,N excreted from livestock animals through manure
+n_lw_,n_lw_2007,2007,N excreted from livestock animals through manure
+n_lw_,n_lw_2008,2008,N excreted from livestock animals through manure
+n_lw_,n_lw_2009,2009,N excreted from livestock animals through manure
+n_lw_,n_lw_2010,2010,N excreted from livestock animals through manure
+n_lw_,n_lw_2011,2011,N excreted from livestock animals through manure
+n_lw_,n_lw_2012,2012,N excreted from livestock animals through manure
+n_lw_,n_lw_2013,2013,N excreted from livestock animals through manure
+n_lw_,n_lw_2014,2014,N excreted from livestock animals through manure
+n_lw_,n_lw_2015,2015,N excreted from livestock animals through manure
+n_lw_,n_lw_2016,2016,N excreted from livestock animals through manure
+n_lw_,n_lw_2017,2017,N excreted from livestock animals through manure
+n_lwr_,n_lwr_1987,1987,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1988,1988,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1989,1989,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1990,1990,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1991,1991,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1992,1992,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1993,1993,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1994,1994,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1995,1995,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1996,1996,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1997,1997,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1998,1998,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_1999,1999,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2000,2000,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2001,2001,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2002,2002,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2003,2003,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2004,2004,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2005,2005,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2006,2006,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2007,2007,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2008,2008,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2009,2009,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2010,2010,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2011,2011,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2012,2012,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2013,2013,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2014,2014,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2015,2015,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2016,2016,N from livestock manure applied to agricultural fields 
+n_lwr_,n_lwr_2017,2017,N from livestock manure applied to agricultural fields 
+n_uf_,n_uf_1987,1987,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1988,1988,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1989,1989,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1990,1990,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1991,1991,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1992,1992,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1993,1993,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1994,1994,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1995,1995,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1996,1996,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1997,1997,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1998,1998,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_1999,1999,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2000,2000,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2001,2001,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2002,2002,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2003,2003,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2004,2004,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2005,2005,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2006,2006,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2007,2007,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2008,2008,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2009,2009,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2010,2010,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2011,2011,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2012,2012,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2013,2013,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2014,2014,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2015,2015,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2016,2016,N applied in urban settings to fertilize non-agricultural plants
+n_uf_,n_uf_2017,2017,N applied in urban settings to fertilize non-agricultural plants
+nabd_dens,nabd_dens,NA,NABD dam density
+nabd_nidstor,nabd_nidstor,NA,NABD NID reservoir volume
+nabd_nrmstor,nabd_nrmstor,NA,NABD normal reservoir volume
+npdesdens,npdesdens,NA,NPDES site density
+p_ags_,p_ags_1987,1987,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1988,1988,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1989,1989,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1990,1990,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1991,1991,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1992,1992,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1993,1993,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1994,1994,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1995,1995,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1996,1996,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1997,1997,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1998,1998,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_1999,1999,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2000,2000,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2001,2001,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2002,2002,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2003,2003,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2004,2004,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2005,2005,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2006,2006,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2007,2007,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2008,2008,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2009,2009,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2010,2010,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2011,2011,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2012,2012,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2013,2013,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2014,2014,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2015,2015,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2016,2016,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_ags_,p_ags_2017,2017,P agricultural surplus (p_ff + p_lwr - p_cr)
+p_cr_,p_cr_1987,1987,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1988,1988,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1989,1989,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1990,1990,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1991,1991,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1992,1992,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1993,1993,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1994,1994,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1995,1995,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1996,1996,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1997,1997,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1998,1998,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_1999,1999,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2000,2000,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2001,2001,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2002,2002,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2003,2003,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2004,2004,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2005,2005,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2006,2006,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2007,2007,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2008,2008,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2009,2009,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2010,2010,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2011,2011,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2012,2012,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2013,2013,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2014,2014,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2015,2015,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2016,2016,P removed from agricultural fields via crop output harvest
+p_cr_,p_cr_2017,2017,P removed from agricultural fields via crop output harvest
+p_ff_,p_ff_1987,1987,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1988,1988,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1989,1989,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1990,1990,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1991,1991,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1992,1992,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1993,1993,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1994,1994,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1995,1995,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1996,1996,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1997,1997,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1998,1998,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_1999,1999,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2000,2000,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2001,2001,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2002,2002,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2003,2003,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2004,2004,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2005,2005,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2006,2006,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2007,2007,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2008,2008,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2009,2009,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2010,2010,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2011,2011,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2012,2012,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2013,2013,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2014,2014,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2015,2015,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2016,2016,P applied to agricultural fields to fertilize crops
+p_ff_,p_ff_2017,2017,P applied to agricultural fields to fertilize crops
+p_hw_,p_hw_1987,1987,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1988,1988,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1989,1989,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1990,1990,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1991,1991,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1992,1992,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1993,1993,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1994,1994,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1995,1995,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1996,1996,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1997,1997,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1998,1998,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_1999,1999,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2000,2000,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2001,2001,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2002,2002,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2003,2003,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2004,2004,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2005,2005,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2006,2006,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2007,2007,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2008,2008,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2009,2009,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2010,2010,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2011,2011,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2012,2012,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2013,2013,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2014,2014,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2015,2015,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2016,2016,P excreted from humans via waste or otherwise disposed of
+p_hw_,p_hw_2017,2017,P excreted from humans via waste or otherwise disposed of
+p_lw_,p_lw_1987,1987,P excreted from livestock animals through manure
+p_lw_,p_lw_1988,1988,P excreted from livestock animals through manure
+p_lw_,p_lw_1989,1989,P excreted from livestock animals through manure
+p_lw_,p_lw_1990,1990,P excreted from livestock animals through manure
+p_lw_,p_lw_1991,1991,P excreted from livestock animals through manure
+p_lw_,p_lw_1992,1992,P excreted from livestock animals through manure
+p_lw_,p_lw_1993,1993,P excreted from livestock animals through manure
+p_lw_,p_lw_1994,1994,P excreted from livestock animals through manure
+p_lw_,p_lw_1995,1995,P excreted from livestock animals through manure
+p_lw_,p_lw_1996,1996,P excreted from livestock animals through manure
+p_lw_,p_lw_1997,1997,P excreted from livestock animals through manure
+p_lw_,p_lw_1998,1998,P excreted from livestock animals through manure
+p_lw_,p_lw_1999,1999,P excreted from livestock animals through manure
+p_lw_,p_lw_2000,2000,P excreted from livestock animals through manure
+p_lw_,p_lw_2001,2001,P excreted from livestock animals through manure
+p_lw_,p_lw_2002,2002,P excreted from livestock animals through manure
+p_lw_,p_lw_2003,2003,P excreted from livestock animals through manure
+p_lw_,p_lw_2004,2004,P excreted from livestock animals through manure
+p_lw_,p_lw_2005,2005,P excreted from livestock animals through manure
+p_lw_,p_lw_2006,2006,P excreted from livestock animals through manure
+p_lw_,p_lw_2007,2007,P excreted from livestock animals through manure
+p_lw_,p_lw_2008,2008,P excreted from livestock animals through manure
+p_lw_,p_lw_2009,2009,P excreted from livestock animals through manure
+p_lw_,p_lw_2010,2010,P excreted from livestock animals through manure
+p_lw_,p_lw_2011,2011,P excreted from livestock animals through manure
+p_lw_,p_lw_2012,2012,P excreted from livestock animals through manure
+p_lw_,p_lw_2013,2013,P excreted from livestock animals through manure
+p_lw_,p_lw_2014,2014,P excreted from livestock animals through manure
+p_lw_,p_lw_2015,2015,P excreted from livestock animals through manure
+p_lw_,p_lw_2016,2016,P excreted from livestock animals through manure
+p_lw_,p_lw_2017,2017,P excreted from livestock animals through manure
+p_lwr_,p_lwr_1987,1987,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1988,1988,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1989,1989,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1990,1990,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1991,1991,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1992,1992,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1993,1993,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1994,1994,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1995,1995,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1996,1996,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1997,1997,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1998,1998,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_1999,1999,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2000,2000,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2001,2001,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2002,2002,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2003,2003,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2004,2004,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2005,2005,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2006,2006,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2007,2007,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2008,2008,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2009,2009,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2010,2010,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2011,2011,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2012,2012,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2013,2013,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2014,2014,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2015,2015,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2016,2016,P from livestock manure applied to agricultural fields
+p_lwr_,p_lwr_2017,2017,P from livestock manure applied to agricultural fields
+p_uf_,p_uf_1987,1987,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1988,1988,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1989,1989,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1990,1990,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1991,1991,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1992,1992,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1993,1993,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1994,1994,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1995,1995,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1996,1996,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1997,1997,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1998,1998,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_1999,1999,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2000,2000,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2001,2001,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2002,2002,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2003,2003,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2004,2004,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2005,2005,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2006,2006,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2007,2007,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2008,2008,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2009,2009,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2010,2010,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2011,2011,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2012,2012,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2013,2013,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2014,2014,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2015,2015,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2016,2016,P applied in urban settings to fertilize non-agricultural plants
+p_uf_,p_uf_2017,2017,P applied in urban settings to fertilize non-agricultural plants
+pctagslphigh,pctagslphigh2001,2001,Percent of agriculture of 20% slope
+pctagslphigh,pctagslphigh2004,2004,Percent of agriculture of 20% slope
+pctagslphigh,pctagslphigh2006,2006,Percent of agriculture of 20% slope
+pctagslphigh,pctagslphigh2008,2008,Percent of agriculture of 20% slope
+pctagslphigh,pctagslphigh2011,2011,Percent of agriculture of 20% slope
+pctagslphigh,pctagslphigh2013,2013,Percent of agriculture of 20% slope
+pctagslphigh,pctagslphigh2016,2016,Percent of agriculture of 20% slope
+pctagslphigh,pctagslphigh2019,2019,Percent of agriculture of 20% slope
+pctagslpmid,pctagslpmid2001,2001,Percent of agriculture of 10% slope
+pctagslpmid,pctagslpmid2004,2004,Percent of agriculture of 10% slope
+pctagslpmid,pctagslpmid2006,2006,Percent of agriculture of 10% slope
+pctagslpmid,pctagslpmid2008,2008,Percent of agriculture of 10% slope
+pctagslpmid,pctagslpmid2011,2011,Percent of agriculture of 10% slope
+pctagslpmid,pctagslpmid2013,2013,Percent of agriculture of 10% slope
+pctagslpmid,pctagslpmid2016,2016,Percent of agriculture of 10% slope
+pctagslpmid,pctagslpmid2019,2019,Percent of agriculture of 10% slope
+pctcrop,pctcrop2001,2001,Row crop percentage
+pctcrop,pctcrop2004,2004,Row crop percentage
+pctcrop,pctcrop2006,2006,Row crop percentage
+pctcrop,pctcrop2008,2008,Row crop percentage
+pctcrop,pctcrop2011,2011,Row crop percentage
+pctcrop,pctcrop2013,2013,Row crop percentage
+pctcrop,pctcrop2016,2016,Row crop percentage
+pctcrop,pctcrop2019,2019,Row crop percentage
+pcthay,pcthay2001,2001,Pasture/hay percentage
+pcthay,pcthay2004,2004,Pasture/hay percentage
+pcthay,pcthay2006,2006,Pasture/hay percentage
+pcthay,pcthay2008,2008,Pasture/hay percentage
+pcthay,pcthay2011,2011,Pasture/hay percentage
+pcthay,pcthay2013,2013,Pasture/hay percentage
+pcthay,pcthay2016,2016,Pasture/hay percentage
+pcthay,pcthay2019,2019,Pasture/hay percentage
+pcthighsev,pcthighsev1984,1984,Percent high burn severity class
+pcthighsev,pcthighsev1985,1985,Percent high burn severity class
+pcthighsev,pcthighsev1986,1986,Percent high burn severity class
+pcthighsev,pcthighsev1987,1987,Percent high burn severity class
+pcthighsev,pcthighsev1988,1988,Percent high burn severity class
+pcthighsev,pcthighsev1989,1989,Percent high burn severity class
+pcthighsev,pcthighsev1990,1990,Percent high burn severity class
+pcthighsev,pcthighsev1991,1991,Percent high burn severity class
+pcthighsev,pcthighsev1992,1992,Percent high burn severity class
+pcthighsev,pcthighsev1993,1993,Percent high burn severity class
+pcthighsev,pcthighsev1994,1994,Percent high burn severity class
+pcthighsev,pcthighsev1995,1995,Percent high burn severity class
+pcthighsev,pcthighsev1996,1996,Percent high burn severity class
+pcthighsev,pcthighsev1997,1997,Percent high burn severity class
+pcthighsev,pcthighsev1998,1998,Percent high burn severity class
+pcthighsev,pcthighsev1999,1999,Percent high burn severity class
+pcthighsev,pcthighsev2000,2000,Percent high burn severity class
+pcthighsev,pcthighsev2001,2001,Percent high burn severity class
+pcthighsev,pcthighsev2002,2002,Percent high burn severity class
+pcthighsev,pcthighsev2003,2003,Percent high burn severity class
+pcthighsev,pcthighsev2004,2004,Percent high burn severity class
+pcthighsev,pcthighsev2005,2005,Percent high burn severity class
+pcthighsev,pcthighsev2006,2006,Percent high burn severity class
+pcthighsev,pcthighsev2007,2007,Percent high burn severity class
+pcthighsev,pcthighsev2008,2008,Percent high burn severity class
+pcthighsev,pcthighsev2009,2009,Percent high burn severity class
+pcthighsev,pcthighsev2010,2010,Percent high burn severity class
+pcthighsev,pcthighsev2011,2011,Percent high burn severity class
+pcthighsev,pcthighsev2012,2012,Percent high burn severity class
+pcthighsev,pcthighsev2013,2013,Percent high burn severity class
+pcthighsev,pcthighsev2014,2014,Percent high burn severity class
+pcthighsev,pcthighsev2015,2015,Percent high burn severity class
+pcthighsev,pcthighsev2016,2016,Percent high burn severity class
+pcthighsev,pcthighsev2017,2017,Percent high burn severity class
+pcthighsev,pcthighsev2018,2018,Percent high burn severity class
+pctimp,pctimp2001,2001,Mean imperviousness
+pctimp,pctimp2004,2004,Mean imperviousness
+pctimp,pctimp2006,2006,Mean imperviousness
+pctimp,pctimp2008,2008,Mean imperviousness
+pctimp,pctimp2011,2011,Mean imperviousness
+pctimp,pctimp2013,2013,Mean imperviousness
+pctimp,pctimp2016,2016,Mean imperviousness
+pctimp,pctimp2019,2019,Mean imperviousness
+pctimpslphigh,pctimpslphigh2001,2001,Mean imperviousness on 10% slope
+pctimpslphigh,pctimpslphigh2004,2004,Mean imperviousness on 10% slope
+pctimpslphigh,pctimpslphigh2006,2006,Mean imperviousness on 10% slope
+pctimpslphigh,pctimpslphigh2008,2008,Mean imperviousness on 10% slope
+pctimpslphigh,pctimpslphigh2011,2011,Mean imperviousness on 10% slope
+pctimpslphigh,pctimpslphigh2013,2013,Mean imperviousness on 10% slope
+pctimpslphigh,pctimpslphigh2016,2016,Mean imperviousness on 10% slope
+pctimpslphigh,pctimpslphigh2019,2019,Mean imperviousness on 10% slope
+pctimpslpmid,pctimpslpmid2001,2001,Mean imperviousness on 20% slope
+pctimpslpmid,pctimpslpmid2004,2004,Mean imperviousness on 20% slope
+pctimpslpmid,pctimpslpmid2006,2006,Mean imperviousness on 20% slope
+pctimpslpmid,pctimpslpmid2008,2008,Mean imperviousness on 20% slope
+pctimpslpmid,pctimpslpmid2011,2011,Mean imperviousness on 20% slope
+pctimpslpmid,pctimpslpmid2013,2013,Mean imperviousness on 20% slope
+pctimpslpmid,pctimpslpmid2016,2016,Mean imperviousness on 20% slope
+pctimpslpmid,pctimpslpmid2019,2019,Mean imperviousness on 20% slope
+pctlowsev,pctlowsev1984,1984,Percent low burn severity class
+pctlowsev,pctlowsev1985,1985,Percent low burn severity class
+pctlowsev,pctlowsev1986,1986,Percent low burn severity class
+pctlowsev,pctlowsev1987,1987,Percent low burn severity class
+pctlowsev,pctlowsev1988,1988,Percent low burn severity class
+pctlowsev,pctlowsev1989,1989,Percent low burn severity class
+pctlowsev,pctlowsev1990,1990,Percent low burn severity class
+pctlowsev,pctlowsev1991,1991,Percent low burn severity class
+pctlowsev,pctlowsev1992,1992,Percent low burn severity class
+pctlowsev,pctlowsev1993,1993,Percent low burn severity class
+pctlowsev,pctlowsev1994,1994,Percent low burn severity class
+pctlowsev,pctlowsev1995,1995,Percent low burn severity class
+pctlowsev,pctlowsev1996,1996,Percent low burn severity class
+pctlowsev,pctlowsev1997,1997,Percent low burn severity class
+pctlowsev,pctlowsev1998,1998,Percent low burn severity class
+pctlowsev,pctlowsev1999,1999,Percent low burn severity class
+pctlowsev,pctlowsev2000,2000,Percent low burn severity class
+pctlowsev,pctlowsev2001,2001,Percent low burn severity class
+pctlowsev,pctlowsev2002,2002,Percent low burn severity class
+pctlowsev,pctlowsev2003,2003,Percent low burn severity class
+pctlowsev,pctlowsev2004,2004,Percent low burn severity class
+pctlowsev,pctlowsev2005,2005,Percent low burn severity class
+pctlowsev,pctlowsev2006,2006,Percent low burn severity class
+pctlowsev,pctlowsev2007,2007,Percent low burn severity class
+pctlowsev,pctlowsev2008,2008,Percent low burn severity class
+pctlowsev,pctlowsev2009,2009,Percent low burn severity class
+pctlowsev,pctlowsev2010,2010,Percent low burn severity class
+pctlowsev,pctlowsev2011,2011,Percent low burn severity class
+pctlowsev,pctlowsev2012,2012,Percent low burn severity class
+pctlowsev,pctlowsev2013,2013,Percent low burn severity class
+pctlowsev,pctlowsev2014,2014,Percent low burn severity class
+pctlowsev,pctlowsev2015,2015,Percent low burn severity class
+pctlowsev,pctlowsev2016,2016,Percent low burn severity class
+pctlowsev,pctlowsev2017,2017,Percent low burn severity class
+pctlowsev,pctlowsev2018,2018,Percent low burn severity class
+pctmodsev,pctmodsev1984,1984,Percent moderate burn severity class
+pctmodsev,pctmodsev1985,1985,Percent moderate burn severity class
+pctmodsev,pctmodsev1986,1986,Percent moderate burn severity class
+pctmodsev,pctmodsev1987,1987,Percent moderate burn severity class
+pctmodsev,pctmodsev1988,1988,Percent moderate burn severity class
+pctmodsev,pctmodsev1989,1989,Percent moderate burn severity class
+pctmodsev,pctmodsev1990,1990,Percent moderate burn severity class
+pctmodsev,pctmodsev1991,1991,Percent moderate burn severity class
+pctmodsev,pctmodsev1992,1992,Percent moderate burn severity class
+pctmodsev,pctmodsev1993,1993,Percent moderate burn severity class
+pctmodsev,pctmodsev1994,1994,Percent moderate burn severity class
+pctmodsev,pctmodsev1995,1995,Percent moderate burn severity class
+pctmodsev,pctmodsev1996,1996,Percent moderate burn severity class
+pctmodsev,pctmodsev1997,1997,Percent moderate burn severity class
+pctmodsev,pctmodsev1998,1998,Percent moderate burn severity class
+pctmodsev,pctmodsev1999,1999,Percent moderate burn severity class
+pctmodsev,pctmodsev2000,2000,Percent moderate burn severity class
+pctmodsev,pctmodsev2001,2001,Percent moderate burn severity class
+pctmodsev,pctmodsev2002,2002,Percent moderate burn severity class
+pctmodsev,pctmodsev2003,2003,Percent moderate burn severity class
+pctmodsev,pctmodsev2004,2004,Percent moderate burn severity class
+pctmodsev,pctmodsev2005,2005,Percent moderate burn severity class
+pctmodsev,pctmodsev2006,2006,Percent moderate burn severity class
+pctmodsev,pctmodsev2007,2007,Percent moderate burn severity class
+pctmodsev,pctmodsev2008,2008,Percent moderate burn severity class
+pctmodsev,pctmodsev2009,2009,Percent moderate burn severity class
+pctmodsev,pctmodsev2010,2010,Percent moderate burn severity class
+pctmodsev,pctmodsev2011,2011,Percent moderate burn severity class
+pctmodsev,pctmodsev2012,2012,Percent moderate burn severity class
+pctmodsev,pctmodsev2013,2013,Percent moderate burn severity class
+pctmodsev,pctmodsev2014,2014,Percent moderate burn severity class
+pctmodsev,pctmodsev2015,2015,Percent moderate burn severity class
+pctmodsev,pctmodsev2016,2016,Percent moderate burn severity class
+pctmodsev,pctmodsev2017,2017,Percent moderate burn severity class
+pctmodsev,pctmodsev2018,2018,Percent moderate burn severity class
+pctundsev,pctundsev1984,1984,Percent underburned to low burn severity class
+pctundsev,pctundsev1985,1985,Percent underburned to low burn severity class
+pctundsev,pctundsev1986,1986,Percent underburned to low burn severity class
+pctundsev,pctundsev1987,1987,Percent underburned to low burn severity class
+pctundsev,pctundsev1988,1988,Percent underburned to low burn severity class
+pctundsev,pctundsev1989,1989,Percent underburned to low burn severity class
+pctundsev,pctundsev1990,1990,Percent underburned to low burn severity class
+pctundsev,pctundsev1991,1991,Percent underburned to low burn severity class
+pctundsev,pctundsev1992,1992,Percent underburned to low burn severity class
+pctundsev,pctundsev1993,1993,Percent underburned to low burn severity class
+pctundsev,pctundsev1994,1994,Percent underburned to low burn severity class
+pctundsev,pctundsev1995,1995,Percent underburned to low burn severity class
+pctundsev,pctundsev1996,1996,Percent underburned to low burn severity class
+pctundsev,pctundsev1997,1997,Percent underburned to low burn severity class
+pctundsev,pctundsev1998,1998,Percent underburned to low burn severity class
+pctundsev,pctundsev1999,1999,Percent underburned to low burn severity class
+pctundsev,pctundsev2000,2000,Percent underburned to low burn severity class
+pctundsev,pctundsev2001,2001,Percent underburned to low burn severity class
+pctundsev,pctundsev2002,2002,Percent underburned to low burn severity class
+pctundsev,pctundsev2003,2003,Percent underburned to low burn severity class
+pctundsev,pctundsev2004,2004,Percent underburned to low burn severity class
+pctundsev,pctundsev2005,2005,Percent underburned to low burn severity class
+pctundsev,pctundsev2006,2006,Percent underburned to low burn severity class
+pctundsev,pctundsev2007,2007,Percent underburned to low burn severity class
+pctundsev,pctundsev2008,2008,Percent underburned to low burn severity class
+pctundsev,pctundsev2009,2009,Percent underburned to low burn severity class
+pctundsev,pctundsev2010,2010,Percent underburned to low burn severity class
+pctundsev,pctundsev2011,2011,Percent underburned to low burn severity class
+pctundsev,pctundsev2012,2012,Percent underburned to low burn severity class
+pctundsev,pctundsev2013,2013,Percent underburned to low burn severity class
+pctundsev,pctundsev2014,2014,Percent underburned to low burn severity class
+pctundsev,pctundsev2015,2015,Percent underburned to low burn severity class
+pctundsev,pctundsev2016,2016,Percent underburned to low burn severity class
+pctundsev,pctundsev2017,2017,Percent underburned to low burn severity class
+pctundsev,pctundsev2018,2018,Percent underburned to low burn severity class
+pcturbhi,pcturbhi2001,2001,Developed high intensity land use percentage
+pcturbhi,pcturbhi2004,2004,Developed high intensity land use percentage
+pcturbhi,pcturbhi2006,2006,Developed high intensity land use percentage
+pcturbhi,pcturbhi2008,2008,Developed high intensity land use percentage
+pcturbhi,pcturbhi2011,2011,Developed high intensity land use percentage
+pcturbhi,pcturbhi2013,2013,Developed high intensity land use percentage
+pcturbhi,pcturbhi2016,2016,Developed high intensity land use percentage
+pcturbhi,pcturbhi2019,2019,Developed high intensity land use percentage
+pcturblo,pcturblo2001,2001,Developed low intensity land use percentage
+pcturblo,pcturblo2004,2004,Developed low intensity land use percentage
+pcturblo,pcturblo2006,2006,Developed low intensity land use percentage
+pcturblo,pcturblo2008,2008,Developed low intensity land use percentage
+pcturblo,pcturblo2011,2011,Developed low intensity land use percentage
+pcturblo,pcturblo2013,2013,Developed low intensity land use percentage
+pcturblo,pcturblo2016,2016,Developed low intensity land use percentage
+pcturblo,pcturblo2019,2019,Developed low intensity land use percentage
+pcturbmd,pcturbmd2001,2001,Developed medium intensity land use percentage
+pcturbmd,pcturbmd2004,2004,Developed medium intensity land use percentage
+pcturbmd,pcturbmd2006,2006,Developed medium intensity land use percentage
+pcturbmd,pcturbmd2008,2008,Developed medium intensity land use percentage
+pcturbmd,pcturbmd2011,2011,Developed medium intensity land use percentage
+pcturbmd,pcturbmd2013,2013,Developed medium intensity land use percentage
+pcturbmd,pcturbmd2016,2016,Developed medium intensity land use percentage
+pcturbmd,pcturbmd2019,2019,Developed medium intensity land use percentage
+pcturbop,pcturbop2001,2001,Developed open space land use percentage
+pcturbop,pcturbop2004,2004,Developed open space land use percentage
+pcturbop,pcturbop2006,2006,Developed open space land use percentage
+pcturbop,pcturbop2008,2008,Developed open space land use percentage
+pcturbop,pcturbop2011,2011,Developed open space land use percentage
+pcturbop,pcturbop2013,2013,Developed open space land use percentage
+pcturbop,pcturbop2016,2016,Developed open space land use percentage
+pcturbop,pcturbop2019,2019,Developed open space land use percentage
+popden2010,popden2010,NA,Mean population density 2010
+rdcrs,rdcrs,NA,Road and stream intersection density
+rdcrsslpwtd,rdcrsslpwtd,NA,Road and stream intersection x nhd slope
+rddens,rddens,NA,Mean road density
+superfunddens,superfunddens,NA,Superfund site density
+tridens,tridens,NA,Toxic release inventory site density
+wwtpalldens,wwtpalldens,NA,All wastewater treatment density
+wwtpmajordens,wwtpmajordens,NA,Major wastewater treatment density
+wwtpminordens,wwtpminordens,NA,Minor wastewater treatment density
