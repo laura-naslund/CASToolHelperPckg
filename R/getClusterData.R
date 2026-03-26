@@ -11,19 +11,22 @@ getClusterData <- function(state, clustnum){
 
   stateAbb <- state.abb[which(state.name == state)]
 
+  state_enc <- URLencode(state, reserved = TRUE)
+
   if(clustnum == "default"){
-    pick_list_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state, "_pick_list.csv")
+    pick_list_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_pick_list.csv")
 
     default_clust <- arrow::open_dataset(pick_list_fp, format = "csv") |>
       dplyr::collect() |>
-      dplyr::pull(fn)
+      dplyr::pull(fn) |>
+      URLencode(reserved=TRUE)
 
     file_str <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", default_clust, ".parquet")
 
   } else{
 
     bucket <- "dmap-data-commons-ow"
-    prefix <- "streamcat/CASTool/AL"
+    prefix <- paste0("streamcat/CASTool/", stateAbb)
 
     contents <- aws.s3::get_bucket_df(
       bucket = bucket,
@@ -33,9 +36,11 @@ getClusterData <- function(state, clustnum){
     key_str <- contents |>
       dplyr::filter(stringr::str_detect(Key, "ClusterAssignments")) |>
       dplyr::filter(stringr::str_detect(Key, paste0(clustnum, ".parquet"))) |>
-      dplyr::pull(Key)
+      dplyr::pull(Key) |>
+      basename() |>
+      URLencode(reserved = TRUE)
 
-    file_str <- paste0("s3://dmap-data-commons-ow/", key_str)
+    file_str <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", key_str)
 
   }
 
