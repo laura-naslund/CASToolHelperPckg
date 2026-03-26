@@ -1,9 +1,10 @@
 #' Get cluster assignment data for the built-in CASTool comparator site assignment method
 #'
-#' @param state
-#' @param clustnum
+#' @param state state name
+#' @param clustnum desired number of clusters
 #'
 #' @return a df of cluster assignments for NHDPlusV2 reaches in the state and 300 m boundary
+#' @export
 
 getClusterData <- function(state, clustnum){
   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")

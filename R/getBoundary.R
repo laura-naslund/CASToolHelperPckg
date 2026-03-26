@@ -1,8 +1,9 @@
 #' Get state boundary for the CASTool
 #'
-#' @param state
+#' @param state state name
 #'
 #' @return sf object with state boundary with 300 m buffer
+#' @export
 
 getBoundary <- function(state){
   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")

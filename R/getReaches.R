@@ -1,8 +1,9 @@
 #' Get NHDPlusV2 reaches for the CASTool
 #'
-#' @param state
+#' @param state statename
 #'
 #' @return sf object with NHDPlusV2 reaches within a state boundary with 300 m buffer
+#' @export
 
 getReaches <- function(state){
   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")

@@ -1,8 +1,9 @@
 #' Get watershed stressor data
 #'
-#' @param state
+#' @param state state name
 #'
 #' @return df with watershed stressor summary metrics from StreamCat for NHDPlusV2 reaches in the state and 300 m boundary
+#' @export
 
 getWSStressorData <- function(state){
   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")

@@ -1,9 +1,10 @@
 #' Get clustering figure for the built-in CASTool comparator site assignment method
 #'
-#' @param state
-#' @param clustnum
+#' @param state state name
+#' @param clustnum desired number of clusters
 #'
 #' @return png of clustering results figure with the requested number of clusters
+#' @export
 
 getClusterFig <- function(state, clustnum){
   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")
