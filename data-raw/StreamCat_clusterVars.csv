@@ -1,0 +1,50 @@
+﻿Variable,Definition,Category,Source,Type
+qc_04,April mean monthly stream flow estimate,Hydrology,NHDPlusV2,stream
+qc_05,May mean monthly streamflow estimate,Hydrology,NHDPlusV2,stream
+qc_08,August mean monthly streamflow estimate,Hydrology,NHDPlusV2,stream
+qc_ma,Mean annual stream flow estimate,Hydrology,NHDPlusV2,stream
+slope,Stream slope,Geomorphology,NHDPlusV2,stream
+al2o3,Mean % of lithological aluminum oxide (Al2O3) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+bfi,"Base flow is the component of streamflow that can be attributed to ground-water discharge into streams. The BFI is the ratio of base flow to total flow, expressed as a percentage, within watershed",Hydrology,StreamCat,watershed
+cao,Mean % of lithological calcium oxide (CaO) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+clay,Mean % clay content of soils (STATSGO) within watershed,Soils,StreamCat,watershed
+compstrgth,Mean lithological uniaxial compressive strength (megaPascals) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+elev,Mean watershed elevation (m),Topography,StreamCat,watershed
+fe2o3,Mean % of lithological ferric oxide (Fe2O3) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+hydrlcond,Mean lithological hydraulic conductivity (micrometers per second) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+k2o,Mean % of lithological potassium oxide (K2O) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+kffact,"Mean soil erodibility (Kf) factor (unitless) of soils within watershed. The Kffactor is used in the Universal Soil Loss Equation (USLE) and represents a relative index of susceptibility of bare, cultivated soil to particle detachment and transport by rainfall.",Soils,StreamCat,watershed
+mgo,Mean % of lithological magnesium oxide (MgO) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+na2o,Mean % of lithological sodium oxide (Na2O) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+n,Mean % of lithological nitrogen (N) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+om,Mean organic matter content (% by weight) of soils (STATSGO) within watershed,Soils,StreamCat,watershed
+p2o5,Mean % of lithological phosphorous oxide (P2O5) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+pctalluvcoast,% of watershed area classified as as lithology type: alluvium and fine-textured coastal zone sediment,Lithology,StreamCat,watershed
+pctnoncarbresid,% of watershed area classified as as lithology type: non-carbonate residual material,Lithology,StreamCat,watershed
+pctsilicic,% of watershed area classified as as lithology type: silicic residual material,Lithology,StreamCat,watershed
+perm,Mean permeability (cm/hour) of soils (STATSGO) within watershed,Soils,StreamCat,watershed
+precip9120,PRISM climate data - 30-year normal mean precipitation (mm): Annual period: 1991-2020 within the watershed,Climate,StreamCat,watershed
+rckdep,Mean depth (cm) to bedrock of soils (STATSGO) within watershed,Soils,StreamCat,watershed
+runoff,Mean runoff (mm) within watershed,Hydrology,StreamCat,watershed
+sand,Mean % sand content of soils (STATSGO) within watershed,Soils,StreamCat,watershed
+sio2,Mean % of lithological silicon dioxide (SiO2) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+s,Mean % of lithological sulfur (S) content in surface or near surface geology within watershed,Lithology,StreamCat,watershed
+tmax9120,PRISM climate data - 30-year normal maximum temperature (C°): Annual period: 1991-2020 within the watershed,Climate,StreamCat,watershed
+tmean9120,PRISM climate data - 30-year normal mean temperature (C°): Annual period: 1991-2020 within the watershed,Climate,StreamCat,watershed
+tmin9120,PRISM climate data - 30-year normal minimum temperature (C°): Annual period: 1991-2020 within the watershed,Climate,StreamCat,watershed
+wetindex,Mean Composite Topographic Index (CTI)[Wetness Index] within watershed,Wetness,StreamCat,watershed
+wtdep,Mean seasonal water table depth (cm) of soils (STATSGO) within watershed,Soils; baseflow,StreamCat,watershed
+pctalkintruvol,% of AOI area classified as lithology type: alkaline intrusive volcanic rock,Lithology,StreamCat,watershed
+pctcarbresid,% of AOI area classified as lithology type: carbonate residual material,Lithology,StreamCat,watershed
+pctcoastcrs,"% of AOI area classified as lithology type: coastal zone sediment, coarse-textured",Lithology,StreamCat,watershed
+pctcolluvsed,% of AOI area classified as lithology type: colluvial sediment,Lithology,StreamCat,watershed
+pcteolcrs,"% of AOI area classified as lithology type: eolian sediment, coarse-textured (sand dunes)",Lithology,StreamCat,watershed
+pcteolfine,"% of AOI area classified as lithology type: eolian sediment, fine-textured (glacial loess)",Lithology,StreamCat,watershed
+pctextruvol,% of AOI area classified as lithology type: extrusive volcanic rock,Lithology,StreamCat,watershed
+pctglaclakecrs,"% of AOI area classified as lithology type: glacial outwash and glacial lake sediment, coarse-textured",Lithology,StreamCat,watershed
+pctglaclakefine,"% of AOI area classified as lithology type: glacial lake sediment, fine-textured",Lithology,StreamCat,watershed
+pctglactilclay,"% of AOI area classified as lithology type: glacial till, clayey",Lithology,StreamCat,watershed
+pctglactilcrs,"% of AOI area classified as lithology type: glacial till, coarse-textured",Lithology,StreamCat,watershed
+pctglactilloam,"% of AOI area classified as lithology type: glacial till, loamy",Lithology,StreamCat,watershed
+pcthydric,"% of AOI area classified as lithology type: hydric, peat and muck",Lithology,StreamCat,watershed
+pctsallake,% of AOI area classified as lithology type: saline like sediment,Lithology,StreamCat,watershed
