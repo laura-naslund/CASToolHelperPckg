@@ -18,8 +18,7 @@ getSCClusterData <- function(state){
 
   state_pq <- arrow::open_dataset(state_fp) |>
     dplyr::collect() |>
-    dplyr::rename_all(~ stringr::str_remove(.x, "ws$")) |>
-    dplyr::select(dplyr::all_of(c("comid", clust_vars_vec)))
+    dplyr::select(dplyr::all_of(c("comid", paste0(clust_vars_vec, "ws"))))
 
   return(state_pq)
 }
