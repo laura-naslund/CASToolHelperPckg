@@ -14,7 +14,9 @@ getSCClusterData <- function(state){
 
   stateAbb <- state.abb[which(state.name == state)]
 
-  state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
+  #state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
+
+  state_fp <- paste0(get_s3_data() |> dirname(), "/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
 
   state_pq <- arrow::open_dataset(state_fp) |>
     dplyr::collect() |>

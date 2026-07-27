@@ -13,7 +13,8 @@ getBoundary <- function(state){
 
   state_enc <- URLencode(state, reserved = TRUE)
 
-  state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_boundary.parquet")
+  #state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_boundary.parquet")
+  state_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, "_boundary.parquet")
 
   state_pq <- sfarrow::st_read_parquet(state_fp)
 

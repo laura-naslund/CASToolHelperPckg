@@ -15,9 +15,12 @@ getWSStressorData <- function(state){
 
   stateAbb <- state.abb[which(state.name == state)]
 
-  state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
-  boundary_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb, "/", stateAbb, "_WSStressor_border_wide.parquet")
+  state_fp <- paste0(get_s3_data() |> dirname(), "/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
+  boundary_fp <- paste0(get_s3_data(), stateAbb, "/", stateAbb, "_WSStressor_border_wide.parquet")
 
+  # state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
+  # boundary_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb, "/", stateAbb, "_WSStressor_border_wide.parquet")
+  #
   state_pq <- arrow::open_dataset(state_fp) |>
     dplyr::collect() |>
     dplyr::select(!dplyr::ends_with(".x")) |>
