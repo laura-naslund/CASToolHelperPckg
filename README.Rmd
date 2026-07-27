@@ -56,14 +56,17 @@ head(state_clust_assign)
 ```{r}
 state_clustfig <- getClusterFig(state, clust_num)
 
-tempfp <- file.path(tempdir(), "cluster_graphic.png")
+out_file <- "man/figures/cluster_graphic.png"
+
+dir.create(dirname(out_file), recursive = TRUE, showWarnings = FALSE)
 
 aws.s3::save_object(
   object = state_clustfig,
   bucket = "dmap-data-commons-ow",
-  file = tempfp
+  file = out_file
 )
-magick::image_read(tempfp)
+
+magick::image_read(out_file)
 ```
 
 ## Retrieve watershed stressor data
