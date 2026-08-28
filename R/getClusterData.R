@@ -49,6 +49,7 @@ getClusterData <- function(state, clustnum){
 
   }
 
+  print(file_str)
   ret <- arrow::open_dataset(file_str) |> dplyr::collect()
 
   return(ret)

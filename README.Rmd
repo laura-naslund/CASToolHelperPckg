@@ -2,9 +2,7 @@
 title: "README"
 author: "Laura Naslund"
 date: "2026-07-27"
-output: 
-  html_document:
-    df_print: paged
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
