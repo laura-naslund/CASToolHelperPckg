@@ -16,6 +16,8 @@ getReaches <- function(state){
   state_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, ".parquet")
 
   print(state_fp)
+  cat(state_fp)
+  dput(state_fp)
 
   state_pq <- sfarrow::st_read_parquet(state_fp)
 

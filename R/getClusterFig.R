@@ -49,5 +49,7 @@ getClusterFig <- function(state, clustnum){
   }
 
   print(fig_key_str)
+  cat(fig_key_str)
+  dput(fig_key_str)
   return(fig_key_str)
 }
