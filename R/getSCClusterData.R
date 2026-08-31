@@ -17,12 +17,11 @@ getSCClusterData <- function(state){
   #state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
 
   state_fp <- paste0(get_s3_data() |> dirname(), "/CASTool_State_SC/", stateAbb, "_CASTool_StreamCatMetrics.parquet")
+  state_fp2 <- file.path(get_s3_data() |> dirname(), "CASTool_State_SC", paste0(stateAbb, "_CASTool_StreamCatMetrics.parquet"))
 
-  print(state_fp)
-  cat(state_fp)
-  dput(state_fp)
+  dput(state_fp2)
 
-  state_pq <- arrow::open_dataset(state_fp) |>
+  state_pq <- arrow::open_dataset(state_fp2) |>
     dplyr::collect() |>
     dplyr::select(dplyr::all_of(c("comid", paste0(clust_vars_vec, "ws"))))
 

@@ -16,15 +16,17 @@ getClusterFig <- function(state, clustnum){
   if(clustnum == "default"){
     #pick_list_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_pick_list.csv")
     pick_list_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, "_pick_list.csv")
+    pick_list_fp2 <- file.path(get_s3_data(), stateAbb, paste0(state_enc, "_pick_list.csv"))
 
 
-    default_clust <- arrow::open_dataset(pick_list_fp, format = "csv") |>
+    default_clust <- arrow::open_dataset(pick_list_fp2, format = "csv") |>
       dplyr::collect() |>
       dplyr::pull(fn) |>
       stringr::str_replace("Assignments", "Graphics") |>
       URLencode(reserved = TRUE)
 
     fig_key_str <- paste0("streamcat/CASTool/", stateAbb,"/", default_clust, ".png")
+    fig_key_str2 <- file.path("streamcat", "CASTool", stateAbb, paste0(default_clust, ".png"))
 
   } else{
 
@@ -45,11 +47,10 @@ getClusterFig <- function(state, clustnum){
       URLencode(reserved = TRUE)
 
     fig_key_str <- paste0("streamcat/CASTool/", stateAbb,"/", key_str)
+    fig_key_str2 <- file.path("streamcat", "CASTool", stateAbb, key_str)
 
   }
 
-  print(fig_key_str)
-  cat(fig_key_str)
-  dput(fig_key_str)
-  return(fig_key_str)
+  dput(fig_key_str2)
+  return(fig_key_str2)
 }

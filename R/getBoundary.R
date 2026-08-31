@@ -16,11 +16,11 @@ getBoundary <- function(state){
   #state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_boundary.parquet")
   state_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, "_boundary.parquet")
 
-  print(state_fp)
-  cat(state_fp)
-  dput(state_fp)
+  state_fp2 <- file.path(get_s3_data(), stateAbb, paste0(state_enc, "_boundary.parquet"))
 
-  state_pq <- sfarrow::st_read_parquet(state_fp)
+  dput(state_fp2)
+
+  state_pq <- sfarrow::st_read_parquet(state_fp2)
 
   return(state_pq)
 }

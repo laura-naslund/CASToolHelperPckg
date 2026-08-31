@@ -16,15 +16,17 @@ getClusterData <- function(state, clustnum){
   if(clustnum == "default"){
     #pick_list_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_pick_list.csv")
     pick_list_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, "_pick_list.csv")
+    pick_list_fp2 <- file.path(get_s3_data(), stateAbb, paste0(state_enc, "_pick_list.csv"))
 
 
-    default_clust <- arrow::open_dataset(pick_list_fp, format = "csv") |>
+    default_clust <- arrow::open_dataset(pick_list_fp2, format = "csv") |>
       dplyr::collect() |>
       dplyr::pull(fn) |>
       URLencode(reserved=TRUE)
 
     #file_str <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", default_clust, ".parquet")
     file_str <- paste0(get_s3_data(), stateAbb,"/", default_clust, ".parquet")
+    file_str2 <- file.path(get_s3_data(), stateAbb, paste0(default_clust, ".parquet"))
 
   } else{
 
@@ -46,14 +48,13 @@ getClusterData <- function(state, clustnum){
 
     #file_str <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", key_str)
     file_str <- paste0(get_s3_data(), stateAbb,"/", key_str)
+    file_str2 <- file.path(get_s3_data(), stateAbb, key_str)
 
   }
 
-  print(file_str)
-  cat(file_str)
-  dput(file_str)
+  dput(file_str2)
 
-  ret <- arrow::open_dataset(file_str) |> dplyr::collect()
+  ret <- arrow::open_dataset(file_str2) |> dplyr::collect()
 
   return(ret)
 }
