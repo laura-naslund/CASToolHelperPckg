@@ -1,3 +1,9 @@
+#' Get S3 bucket path
+#'
+#' @return
+#' @export
+#'
+#' @examples
 get_s3_data <- function(){
   # old
   "s3://dmap-data-commons-ow/streamcat/CASTool"
@@ -6,3 +12,6 @@ get_s3_data <- function(){
   # new
   #"https://dmap-data-commons-ow.s3.us-east-1.amazonaws.com/index.html#data/streamcat/"
 }
+
+
+

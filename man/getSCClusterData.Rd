@@ -6,9 +6,6 @@
 \usage{
 getSCClusterData(state)
 }
-\arguments{
-\item{state}{}
-}
 \value{
 a wide dataframe of StreamCat variables used in the clustering algorithm for the state (not including the 300 m boundary)
 }
