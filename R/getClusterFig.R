@@ -14,29 +14,23 @@ getClusterFig <- function(state, clustnum){
   state_enc <- URLencode(state, reserved = TRUE)
 
   if(clustnum == "default"){
-    #pick_list_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_pick_list.csv")
-    pick_list_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, "_pick_list.csv")
-    pick_list_fp2 <- file.path(get_s3_data(), stateAbb, paste0(state_enc, "_pick_list.csv"))
+    pick_raw <- aws.s3::get_object(
+      object = paste(get_s3_prefix(), stateAbb, paste0(state_enc, "_pick_list.csv"), sep = "/"),
+      bucket = get_s3_bucket()
+    )
 
-
-    default_clust <- arrow::open_dataset(pick_list_fp2, format = "csv") |>
-      dplyr::collect() |>
+    default_clust <- read.csv(text = rawToChar(pick_raw)) |>
       dplyr::pull(fn) |>
       stringr::str_replace("Assignments", "Graphics") |>
       URLencode(reserved = TRUE)
 
-    fig_key_str <- paste0("streamcat/CASTool/", stateAbb,"/", default_clust, ".png")
-    fig_key_str2 <- file.path("streamcat", "CASTool", stateAbb, paste0(default_clust, ".png"))
+    fig_key_str <- paste0(get_s3_prefix(), "/", stateAbb,"/", default_clust, ".png")
 
   } else{
 
-    bucket <- "dmap-data-commons-ow"
-    prefix <- paste0("streamcat/CASTool/", stateAbb)
-    # prefix <- paste0("data/streamcat/CASTool/", stateAbb)
-
     contents <- aws.s3::get_bucket_df(
-      bucket = bucket,
-      prefix = prefix
+      bucket = get_s3_bucket(),
+      prefix = paste(get_s3_prefix(), stateAbb, sep = "/")
     )
 
     key_str <- contents |>
@@ -46,11 +40,59 @@ getClusterFig <- function(state, clustnum){
       basename() |>
       URLencode(reserved = TRUE)
 
-    fig_key_str <- paste0("streamcat/CASTool/", stateAbb,"/", key_str)
-    fig_key_str2 <- file.path("streamcat", "CASTool", stateAbb, key_str)
+    fig_key_str <- paste0(get_s3_prefix(), "/", stateAbb,"/", key_str)
 
   }
 
-  dput(fig_key_str2)
-  return(fig_key_str2)
+  return(fig_key_str)
 }
+
+# getClusterFig <- function(state, clustnum){
+#   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")
+#
+#   stateAbb <- state.abb[which(state.name == state)]
+#
+#   state_enc <- URLencode(state, reserved = TRUE)
+#
+#   if(clustnum == "default"){
+#     #pick_list_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_pick_list.csv")
+#     pick_list_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, "_pick_list.csv")
+#     pick_list_fp2 <- file.path(get_s3_data(), stateAbb, paste0(state_enc, "_pick_list.csv"))
+#
+#
+#     default_clust <- arrow::open_dataset(pick_list_fp2, format = "csv") |>
+#       dplyr::collect() |>
+#       dplyr::pull(fn) |>
+#       stringr::str_replace("Assignments", "Graphics") |>
+#       URLencode(reserved = TRUE)
+#
+#     fig_key_str <- paste0("streamcat/CASTool/", stateAbb,"/", default_clust, ".png")
+#     fig_key_str2 <- file.path("streamcat", "CASTool", stateAbb, paste0(default_clust, ".png"))
+#
+#   } else{
+#
+#     bucket <- "dmap-data-commons-ow"
+#     prefix <- paste0("streamcat/CASTool/", stateAbb)
+#     # prefix <- paste0("data/streamcat/CASTool/", stateAbb)
+#
+#     contents <- aws.s3::get_bucket_df(
+#       bucket = bucket,
+#       prefix = prefix
+#     )
+#
+#     key_str <- contents |>
+#       dplyr::filter(stringr::str_detect(Key, "ClusterGraphics")) |>
+#       dplyr::filter(stringr::str_detect(Key, paste0(clustnum, ".png"))) |>
+#       dplyr::pull(Key) |>
+#       basename() |>
+#       URLencode(reserved = TRUE)
+#
+#     fig_key_str <- paste0("streamcat/CASTool/", stateAbb,"/", key_str)
+#     fig_key_str2 <- file.path("streamcat", "CASTool", stateAbb, key_str)
+#
+#   }
+#
+#   dput(fig_key_str2)
+#   return(fig_key_str2)
+# }
+
