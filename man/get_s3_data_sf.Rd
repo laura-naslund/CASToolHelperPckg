@@ -6,6 +6,9 @@
 \usage{
 get_s3_data_sf()
 }
+\value{
+path to remote storage of CASTool helper data
+}
 \description{
 Get S3 path for sf
 }

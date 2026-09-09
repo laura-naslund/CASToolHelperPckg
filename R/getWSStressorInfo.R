@@ -1,6 +1,6 @@
 #' Get watershed stressor metadata
 #'
-#' @return df of watershed stressor metadata
+#' @return dataframe of watershed stressor metadata
 #' @export
 #'
 getWSStressorInfo <- function(){

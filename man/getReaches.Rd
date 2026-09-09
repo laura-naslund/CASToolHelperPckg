@@ -7,7 +7,7 @@
 getReaches(state)
 }
 \arguments{
-\item{state}{statename}
+\item{state}{unabbreviated, capitalized, state name}
 }
 \value{
 sf object with NHDPlusV2 reaches within a state boundary with 300 m buffer

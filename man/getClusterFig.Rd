@@ -7,9 +7,9 @@
 getClusterFig(state, clustnum)
 }
 \arguments{
-\item{state}{state name}
+\item{state}{unabbreviated, capitalized, state name}
 
-\item{clustnum}{desired number of clusters}
+\item{clustnum}{desired number of clusters (default or 1 through 5)}
 }
 \value{
 png of clustering results figure with the requested number of clusters

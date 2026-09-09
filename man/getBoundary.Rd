@@ -7,10 +7,10 @@
 getBoundary(state)
 }
 \arguments{
-\item{state}{state name}
+\item{state}{unabbreviated, capitalized, state name}
 }
 \value{
-sf object with state boundary with 300 m buffer
+sf object of state boundary with 300 m buffer
 }
 \description{
 Get state boundary for the CASTool

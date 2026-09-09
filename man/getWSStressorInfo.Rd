@@ -7,7 +7,7 @@
 getWSStressorInfo()
 }
 \value{
-df of watershed stressor metadata
+dataframe of watershed stressor metadata
 }
 \description{
 Get watershed stressor metadata

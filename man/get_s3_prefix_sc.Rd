@@ -6,6 +6,9 @@
 \usage{
 get_s3_prefix_sc()
 }
+\value{
+path to folder within S3 bucket containing relevant StreamCat data
+}
 \description{
 Get s3 prefix raw sc
 }

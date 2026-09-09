@@ -1,12 +1,20 @@
 #' Get state boundary for the CASTool
 #'
-#' @param state state name
+#' @param state unabbreviated, capitalized, state name
 #'
-#' @return sf object with state boundary with 300 m buffer
+#' @return sf object of state boundary with 300 m buffer
 #' @export
 
 getBoundary <- function(state){
   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")
+
+  if(!(state %in% state.name)){
+    stop(paste(state, "is not a valid state name"))
+  }
+
+  if(state %in% c("Alaska", "Hawaii")){
+    stop(paste(state, "data are not currently available"))
+  }
 
   stateAbb <- state.abb[which(state.name == state)]
 
@@ -18,27 +26,3 @@ getBoundary <- function(state){
 
   return(state_pq)
 }
-
-
-# getBoundary <- function(state){
-#   Sys.setenv("AWS_EC2_METADATA_DISABLED" = "true")
-#
-#   stateAbb <- state.abb[which(state.name == state)]
-#
-#
-#   state_enc <- URLencode(state, reserved = TRUE)
-#
-#   #state_fp <- paste0("s3://dmap-data-commons-ow/streamcat/CASTool/", stateAbb,"/", state_enc, "_boundary.parquet")
-#   state_fp <- paste0(get_s3_data(), stateAbb,"/", state_enc, "_boundary.parquet")
-#
-#   state_fp2 <- file.path(get_s3_data_sf(), stateAbb, paste0(state_enc, "_boundary.parquet"))
-#   dput("file path version")
-#   dput(state_fp2)
-#
-#   fs <- arrow::S3FileSystem$create(anonymous = TRUE)
-#
-#   state_pq <- sfarrow::st_read_parquet(state_fp2,
-#                                        filesystem = fs)
-#
-#   return(state_pq)
-# }

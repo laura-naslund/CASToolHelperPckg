@@ -7,10 +7,10 @@
 getWSStressorData(state)
 }
 \arguments{
-\item{state}{state name}
+\item{state}{unabbreviated, capitalized, state name}
 }
 \value{
-df with watershed stressor summary metrics from StreamCat for NHDPlusV2 reaches in the state and 300 m boundary
+dataframe with watershed stressor summary metrics from StreamCat for NHDPlusV2 reaches in the state and 300 m boundary
 }
 \description{
 Get watershed stressor data

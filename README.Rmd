@@ -10,6 +10,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # CASTool Helper Package
+## Install package
+```{r}
+if(!require(remotes)){install.packages("remotes")}  #install if needed
+remotes::install_github("laura-naslund/CASToolHelperPckg", force=TRUE)
+```
 
 ## Define parameters
 -  The package retrieves CASTool inputs by state. The functions accept the capitalized names of states. 

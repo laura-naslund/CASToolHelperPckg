@@ -6,6 +6,9 @@
 \usage{
 get_s3_prefix()
 }
+\value{
+path to folder within S3 bucket containing most CASTool helper data
+}
 \description{
 Get s3 prefix
 }

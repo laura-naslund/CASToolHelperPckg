@@ -6,6 +6,9 @@
 \usage{
 get_s3_bucket()
 }
+\value{
+name of S3 bucket containing CASTool helper data
+}
 \description{
 Get s3 bucket
 }
