@@ -3,6 +3,7 @@ title: "README"
 author: "Laura Naslund"
 date: "2026-07-27"
 output: md_document
+always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
