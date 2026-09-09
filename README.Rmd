@@ -2,7 +2,7 @@
 title: "README"
 author: "Laura Naslund"
 date: "2026-07-27"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # CASTool Helper Package
 ## Install package
-```{r}
+```{r, eval = FALSE}
 if(!require(remotes)){install.packages("remotes")}  #install if needed
 remotes::install_github("laura-naslund/CASToolHelperPckg", force=TRUE)
 ```
@@ -20,8 +20,9 @@ remotes::install_github("laura-naslund/CASToolHelperPckg", force=TRUE)
 -  The package retrieves CASTool inputs by state. The functions accept the capitalized names of states. 
 -  Users must specify the number of desired clusters for cluster assignments data (getClusterData) and figures (getClusterFig). Users can specify any integer 1-5 or "default," which will select the default number of clusters assigned by the clustering algorithm as described in the CASTool documentation.  
 
-```{r}
+```{r, warning = FALSE}
 library(CASToolHelperPckg)
+library(ggplot2)
 
 state <- "Maryland"
 clust_num <- "default"
@@ -31,14 +32,16 @@ clust_num <- "default"
 ```{r}
 state_boundary <- getBoundary(state)
 
-mapview::mapview(state_boundary)
+ggplot()+
+  geom_sf(data = state_boundary)
 ```
 
 ## Retrieve reaches in a state
 ```{r}
 state_reaches <- getReaches(state)
 
-mapview::mapview(state_reaches)
+ggplot()+
+  geom_sf(data = state_reaches)
 ```
 
 ## Retrieve clustering data
@@ -56,7 +59,7 @@ head(state_clust_assign)
 ```
 
 ## Retrive cluster assignments figure
-```{r}
+```{r, eval = FALSE}
 state_clustfig <- getClusterFig(state, clust_num)
 
 out_file <- "man/figures/cluster_graphic.png"
