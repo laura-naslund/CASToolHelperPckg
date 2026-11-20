@@ -3,7 +3,8 @@
 #' @return path to remote storage of CASTool helper data
 #' @export
 get_s3_data_sf <- function(){
-  "https://dmap-data-commons-ow.s3.amazonaws.com/streamcat/CASTool"
+  #"https://dmap-data-commons-ow.s3.amazonaws.com/streamcat/CASTool"
+  "https://dmap-data-commons-ow.s3.amazonaws.com/data/streamcat/CASTool"
 }
 
 #' Get s3 bucket
@@ -20,7 +21,7 @@ get_s3_bucket <- function(){
 #' @return path to folder within S3 bucket containing most CASTool helper data
 #' @export
 get_s3_prefix <- function(){
-  "streamcat/CASTool"
+  "data/streamcat/CASTool"
 }
 
 #' Get s3 prefix raw sc
@@ -28,5 +29,5 @@ get_s3_prefix <- function(){
 #' @return path to folder within S3 bucket containing relevant StreamCat data
 #' @export
 get_s3_prefix_sc <- function(){
-  "streamcat/CASTool_State_SC"
+  "data/streamcat/CASTool_State_SC"
 }
